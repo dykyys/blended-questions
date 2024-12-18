@@ -1197,7 +1197,7 @@ const ChildComponent = () => {
 
 ---
 
-### 40. Напиши код щоб розвернути рядок задом наперед не використовуючи метод reverse?
+#### 40. Напиши код щоб розвернути рядок задом наперед не використовуючи метод reverse?
 
 ```javascript
 function reverseString(str) {
@@ -1211,7 +1211,7 @@ console.log(output); // "!dlrow ,olleH"
 <details><summary><b>Відповідь</b></summary>
 <p>
 
-#### Відповідь:
+##### Відповідь:
 
 ```javascript
 function reverseString(str) {
