@@ -1241,3 +1241,28 @@ console.log(output); // "!dlrow ,olleH"
 
 </p>
 </details>
+
+---
+
+#### 41. Чому ми можемо використовувати метод toLowerCase() для змінної name, якщо вона є рядком?
+
+```javascript
+const name = 'Mango';
+
+name.toLowerCase();
+```
+
+`A` Метод `toLowerCase` автоматично додається до всіх змінних у `JavaScript`.
+`B` `toLowerCase` — це вбудований метод, доступний для всіх рядкових значень у `JavaScript`, оскільки він є частиною прототипу об'єкта `String`.
+`C` Метод `toLowerCase` був оголошений вручну для змінної name у коді.
+`D` Метод `toLowerCase` працює для всіх типів даних у `JavaScript`, не лише для рядків.
+
+<details><summary><b>Відповідь</b></summary>
+<p>
+
+##### Відповідь: B
+
+`toLowerCase` — це вбудований метод, доступний для всіх рядкових значень у JavaScript, оскільки він є частиною прототипу об'єкта `String`.
+
+</p>
+</details>
