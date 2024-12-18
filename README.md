@@ -1190,7 +1190,7 @@ const ChildComponent = () => {
 `A` — Лог з `ParentComponent`, оскільки тіло компонента виконується під час його рендеру.\
 `C` — Лог з `ChildComponent`, оскільки `ChildComponent` рендериться після `ParentComponent`.\
 `D` — Лог з `useEffect` у `ChildComponent`. `useEffect` виконується після рендеру `ChildComponent`.\
-`B` — Лог з `useEffect` у `ParentComponent`. `useEffect` виконується після рендеру компонента.\
+`B` — Лог з `useEffect` у `ParentComponent`. `useEffect` виконується після рендеру компонента.
 
 </p>
 </details>
